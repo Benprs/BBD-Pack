@@ -1,0 +1,15 @@
+{
+	"translators": {
+		"useGoogle": true
+	},
+	"choices": {
+		"inputContext": "auto",
+		"outputContext": "$discord",
+		"inputMessage": "auto",
+		"outputMessage": "$discord"
+	},
+	"settings": {
+		"addTranslateButton": true,
+		"sendOriginalMessage": false
+	}
+}

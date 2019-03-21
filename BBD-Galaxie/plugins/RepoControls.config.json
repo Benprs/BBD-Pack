@@ -1,0 +1,14 @@
+{
+	"changelog": {
+		"currentversion": "1.2.7"
+	},
+	"sortings": {
+		"sort": "name",
+		"order": "asc"
+	},
+	"settings": {
+		"addEditButton": true,
+		"addDeleteButton": true,
+		"confirmDelete": true
+	}
+}

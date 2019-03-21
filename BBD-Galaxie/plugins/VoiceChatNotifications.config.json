@@ -1,0 +1,12 @@
+{
+    "settings": {
+        "logConnections": true,
+        "logMutes": false,
+        "logDeafens": false,
+        "logMoves": true,
+        "logServerMuteDeaf": false,
+        "displayWhileFocused": false,
+        "displayUpdateNotes": true,
+        "suppressInDnd": false
+    }
+}

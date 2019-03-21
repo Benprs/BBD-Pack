@@ -1,0 +1,23 @@
+{
+    "VoiceChatNotifications": {
+        "VoiceChatNotifications": {
+            "readChanges": [
+                "1.0.1",
+                "1.1.1",
+                "1.1.3",
+                "1.2.3"
+            ]
+        }
+    },
+    "DetailedServerTooltips": {
+        "DetailedServerTooltips": {
+            "readChanges": [
+                "0.1.1",
+                "0.2.3",
+                "0.3.4",
+                "0.3.5",
+                "0.3.6"
+            ]
+        }
+    }
+}

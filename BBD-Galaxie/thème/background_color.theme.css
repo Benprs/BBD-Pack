@@ -1,0 +1,97 @@
+//META{"name":"Mon thème animé en CSS!","description":"Thème avec background qui change de couleur.","author":"Galaxie","version":"1.0","website":"actu-rap.cf"}*//{}
+
+    /* Main Wallpaper */
+#app-mount{
+    width: 100wh;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+    /* Fonts/Text */
+#app-mount .markup-2BOw-j:not(code) {color: #fff;font-size: 0.9375rem;text-shadow:1px 1px 1px #000}
+#app-mount ::placeholder{color:rgba(255, 255, 255, 0.8)}
+
+    /* ScrollBars */
+#app-mount ::-webkit-scrollbar, #app-mount ::-webkit-scrollbar-track-piece {visibility:hidden;width:8px}
+#app-mount ::-webkit-scrollbar-thumb {border:none!important; background: #00ffe23d}
+#app-mount .membersWrap-2h-GB4 ::-webkit-scrollbar {width:6px}
+
+    /* Main Transparency */
+#app-mount .layer-3QrUeG, #app-mount .layers-3iHuyZ, #app-mount .container-2lgZY8, #app-mount .typing-2GQL18,
+#app-mount .root-1BQpZw,#app-mount .membersWrap-2h-GB4 .members-1998pB, #app-mount .messagesWrapper-3lZDfY,
+#app-mount .container-3gCOGc, #app-mount .applicationStore-1pNvnv, #app-mount .standardSidebarView-3F1I7i, 
+#app-mount .sidebarRegion-VFTUkN, #app-mount .option-1l2vXE, #app-mount .gameLibrary-TTDw4Y, #app-mount .activityFeed-28jde9, #app-mount .channels-Ie2l6A, #app-mount .container-PNkimc, #app-mount .container-2Thooq,#app-mount .contentRegion-3nDuYy,
+#app-mount .chat-3bRxxu, #app-mount .chat-3bRxxu form, #app-mount .content-yTz4x3,#app-mount .wrapper-1Rf91z,
+#app-mount .title-3qD0b-, #app-mount .headerBar-UHpsPw, #app-mount .header-39GIC8, #app-mount .chat-3bRxxu .markup-2BOw-j code,
+#app-mount .tile-2OwFgW, #app-mount .guildSeparator-3s64Iy:after, #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse, #app-mount .pageWrapper-1PgVDX {
+    background: transparent 
+}
+#app-mount .wrapper-1Rf91z .wrapper-2lTRaf{background:rgba(0, 0, 0, .4) !important}
+
+#app-mount .app-2rEoOp, #app-mount .titleBar-AC4pGV {background: rgba(0, 0, 0, 0.6)}    /* Brightness adjust */
+
+#app-mount .typeWindows-1za-n7 {padding-top:4px;margin-top: 0}
+#app-mount .wordmark-2iDDfm{display:none}   
+
+    /* Lowers brightness on backdrop */
+body{backface-visibility:hidden}
+
+    /* Chat */
+#app-mount .timestampCozy-2hLAPV {color:#ddd}
+    
+#app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, 
+#app-mount .chat-3bRxxu .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before,
+#app-mount .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, 
+#app-mount .chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before,
+#app-mount .chat-3bRxxu .dividerEnabled-2TTlcf, 
+#app-mount .chat-3bRxxu .channelTextArea-rNsIhG {border-color:transparent}  /* Cleans up the lines around the chat */
+
+    /* Code Blocks */ 
+#app-mount .chat-3bRxxu .markup-2BOw-j pre, 
+#app-mount .chat-3bRxxu .markup-2BOw-j code.inline {background: #00000066}
+
+    /* Membercount */
+#MemberCount {opacity: 100%}
+
