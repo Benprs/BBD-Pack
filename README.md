@@ -8,4 +8,4 @@ C'est le pack de Galaxie. Pour Bandage Better Discord (fonctionne aussi avec BD)
     - Glissez le contenus du dossier "plugins" (BBD-Galaxie/plugins) dans le dossier "plugins" de BBD (roaming/betterdiscord/plugins)
     - Activez tous les plugins ainsi que les thèmes souhaités dans le pannel de BBD.
     
-    C'est simple! Mais si tu n'y arrive pas voici un petit tuto pour t'aider: 
+C'est simple! Mais si tu n'y arrive pas voici un petit tuto pour t'aider Comming soon
